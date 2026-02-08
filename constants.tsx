@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
     category: 'AIGC', 
     title: '暗黑悬疑短剧《污渍》', 
     titleEn: 'Dark Suspense Short: Stains', 
-    image: './image/污渍.png', 
+    image: './image/污渍.jpg', 
     link: 'https://www.bilibili.com/video/BV1nkqdBQE7L?buvid=ZF4B81FF5EBE4039463AA1801AB23319764C&from_spmid=search.search-result.0.0&is_story_h5=false&mid=fIgDBXnv05RniVOtKgzMXQ%3D%3D&plat_id=116&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=A6C3BCB4-BE92-4E3B-8739-AEA307E197C0&share_source=COPY&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1770559563&unique_k=gzrznUn&up_id=3690984527366501'
   },
   { 
@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
     category: 'AIGC', 
     title: '影视级AI重现《Spoliarium》', 
     titleEn: 'Cinematic AI: Spoliarium', 
-    image: './image/Spoliarium.png', 
+    image: './image/Spoliarium.jpg', 
     link: 'http://xhslink.com/o/2bgCv2NINFQ'
   },
   { 
@@ -63,7 +63,7 @@ export const PROJECTS: Project[] = [
     category: 'AIGC', 
     title: 'X数字人代言广告', 
     titleEn: 'X Digital Avatar Brand Film', 
-    image: './image/X数字人代言广告.png', 
+    image: './image/X数字人代言广告.jpg', 
     link: '#'
   },
   { 
@@ -71,24 +71,24 @@ export const PROJECTS: Project[] = [
     category: 'AIGC', 
     title: 'X药品广告', 
     titleEn: 'X Pharmaceutical Commercial', 
-    image: './image/X药品广告.png', 
+    image: './image/X药品广告.jpg', 
     link: '#'
   },
   // TVC
-  { id: 't1', category: 'TVC', title: '闯过界-雷克萨斯', titleEn: 'Crossing Borders - Lexus', image: './image/闯过界-雷克萨斯.png' },
-  { id: 't2', category: 'TVC', title: '新东方烹饪学校', titleEn: 'New Oriental Culinary School', image: './image/新东方烹饪学校.png' },
-  { id: 't3', category: 'TVC', title: '滴滴', titleEn: 'DiDi Chuxing', image: './image/滴滴.png' },
-  { id: 't4', category: 'TVC', title: '赖沙', titleEn: 'Laisha', image: './image/赖沙.png' },
+  { id: 't1', category: 'TVC', title: '闯过界-雷克萨斯', titleEn: 'Crossing Borders - Lexus', image: './image/闯过界-雷克萨斯.jpg' },
+  { id: 't2', category: 'TVC', title: '新东方烹饪学校', titleEn: 'New Oriental Culinary School', image: './image/新东方烹饪学校.jpg' },
+  { id: 't3', category: 'TVC', title: '滴滴', titleEn: 'DiDi Chuxing', image: './image/滴滴.jpg' },
+  { id: 't4', category: 'TVC', title: '赖沙', titleEn: 'Laisha', image: './image/赖沙.jpg' },
   // Promotional
-  { id: 'p1', category: 'Promotional', title: '北京首都机场微电影', titleEn: 'Capital Airport Micro-film', image: './image/北京首都机场微电影.png' },
-  { id: 'p2', category: 'Promotional', title: '中国人保PICC', titleEn: 'PICC Brand Film', image: './image/中国人保PICC.png' },
-  { id: 'p3', category: 'Promotional', title: '中地海外', titleEn: 'CGCOC Group', image: './image/中地海外.png' },
-  { id: 'p4', category: 'Promotional', title: '玉溪庄园', titleEn: 'Yuxi Manor', image: './image/玉溪庄园.png' },
+  { id: 'p1', category: 'Promotional', title: '北京首都机场微电影', titleEn: 'Capital Airport Micro-film', image: './image/北京首都机场微电影.jpg' },
+  { id: 'p2', category: 'Promotional', title: '中国人保PICC', titleEn: 'PICC Brand Film', image: './image/中国人保PICC.jpg' },
+  { id: 'p3', category: 'Promotional', title: '中地海外', titleEn: 'CGCOC Group', image: './image/中地海外.jpg' },
+  { id: 'p4', category: 'Promotional', title: '玉溪庄园', titleEn: 'Yuxi Manor', image: './image/玉溪庄园.jpg' },
   // VFX
-  { id: 'v1', category: 'VFX', title: '姜文首部动画短片', titleEn: 'Jiang Wen\'s First Animated Short Film', image: './image/姜文首部动画短片.png' },
-  { id: 'v2', category: 'VFX', title: '警察故事', titleEn: 'Police Story 2013', image: './image/警察故事.png' },
-  { id: 'v3', category: 'VFX', title: '狄仁杰之神都龙王', titleEn: 'Young Detective Dee', image: './image/狄仁杰之神都龙王.png' },
-  { id: 'v4', category: 'VFX', title: '黄金时代', titleEn: 'The Golden Era', image: './image/黄金时代.png' },
+  { id: 'v1', category: 'VFX', title: '姜文首部动画短片', titleEn: 'Jiang Wen\'s First Animated Short Film', image: './image/姜文首部动画短片.jpg' },
+  { id: 'v2', category: 'VFX', title: '警察故事', titleEn: 'Police Story 2013', image: './image/警察故事.jpg' },
+  { id: 'v3', category: 'VFX', title: '狄仁杰之神都龙王', titleEn: 'Young Detective Dee', image: './image/狄仁杰之神都龙王.jpg' },
+  { id: 'v4', category: 'VFX', title: '黄金时代', titleEn: 'The Golden Era', image: './image/黄金时代.jpg' },
 ];
 
 export const PARTNERS: Partner[] = [
