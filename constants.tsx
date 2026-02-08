@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
     category: 'AIGC', 
     title: '暗黑悬疑短剧《污渍》', 
     titleEn: 'Dark Suspense Short: Stains', 
-    image: './image/污渍.jpg', 
+    image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E6%B1%A1%E6%B8%8D.jpg?raw=true', 
     link: 'https://www.bilibili.com/video/BV1nkqdBQE7L?buvid=ZF4B81FF5EBE4039463AA1801AB23319764C&from_spmid=search.search-result.0.0&is_story_h5=false&mid=fIgDBXnv05RniVOtKgzMXQ%3D%3D&plat_id=116&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=A6C3BCB4-BE92-4E3B-8739-AEA307E197C0&share_source=COPY&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1770559563&unique_k=gzrznUn&up_id=3690984527366501'
   },
   { 
