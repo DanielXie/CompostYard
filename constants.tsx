@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
     category: 'AIGC', 
     title: '影视级AI重现《Spoliarium》', 
     titleEn: 'Cinematic AI: Spoliarium', 
-    image: './image/Spoliarium.jpg', 
+    image: 'https://github.com/DanielXie/CompostYard/blob/main/image/Spoliarium.jpg?raw=true', 
     link: 'http://xhslink.com/o/2bgCv2NINFQ'
   },
   { 
@@ -63,7 +63,7 @@ export const PROJECTS: Project[] = [
     category: 'AIGC', 
     title: 'X数字人代言广告', 
     titleEn: 'X Digital Avatar Brand Film', 
-    image: './image/X数字人代言广告.jpg', 
+    image: 'https://github.com/DanielXie/CompostYard/blob/main/image/X%E6%95%B0%E5%AD%97%E4%BA%BA%E4%BB%A3%E8%A8%80%E5%B9%BF%E5%91%8A.jpg?raw=true', 
     link: '#'
   },
   { 
@@ -71,24 +71,24 @@ export const PROJECTS: Project[] = [
     category: 'AIGC', 
     title: 'X药品广告', 
     titleEn: 'X Pharmaceutical Commercial', 
-    image: './image/X药品广告.jpg', 
+    image: 'https://github.com/DanielXie/CompostYard/blob/main/image/X%E8%8D%AF%E5%93%81%E5%B9%BF%E5%91%8A.jpg?raw=true', 
     link: '#'
   },
   // TVC
-  { id: 't1', category: 'TVC', title: '闯过界-雷克萨斯', titleEn: 'Crossing Borders - Lexus', image: './image/闯过界-雷克萨斯.jpg' },
-  { id: 't2', category: 'TVC', title: '新东方烹饪学校', titleEn: 'New Oriental Culinary School', image: './image/新东方烹饪学校.jpg' },
-  { id: 't3', category: 'TVC', title: '滴滴', titleEn: 'DiDi Chuxing', image: './image/滴滴.jpg' },
-  { id: 't4', category: 'TVC', title: '赖沙', titleEn: 'Laisha', image: './image/赖沙.jpg' },
+  { id: 't1', category: 'TVC', title: '闯过界-雷克萨斯', titleEn: 'Crossing Borders - Lexus', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E9%97%AF%E8%BF%87%E7%95%8C-%E9%9B%B7%E5%85%8B%E8%90%A8%E6%96%AF.jpg?raw=true' },
+  { id: 't2', category: 'TVC', title: '新东方烹饪学校', titleEn: 'New Oriental Culinary School', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E6%96%B0%E4%B8%9C%E6%96%B9%E7%83%B9%E9%A5%AA%E5%AD%A6%E6%A0%A1.jpg?raw=true' },
+  { id: 't3', category: 'TVC', title: '滴滴', titleEn: 'DiDi Chuxing', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E6%BB%B4%E6%BB%B4.jpg?raw=true' },
+  { id: 't4', category: 'TVC', title: '赖沙', titleEn: 'Laisha', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E8%B5%96%E6%B2%99.jpg?raw=true' },
   // Promotional
-  { id: 'p1', category: 'Promotional', title: '北京首都机场微电影', titleEn: 'Capital Airport Micro-film', image: './image/北京首都机场微电影.jpg' },
-  { id: 'p2', category: 'Promotional', title: '中国人保PICC', titleEn: 'PICC Brand Film', image: './image/中国人保PICC.jpg' },
-  { id: 'p3', category: 'Promotional', title: '中地海外', titleEn: 'CGCOC Group', image: './image/中地海外.jpg' },
-  { id: 'p4', category: 'Promotional', title: '玉溪庄园', titleEn: 'Yuxi Manor', image: './image/玉溪庄园.jpg' },
+  { id: 'p1', category: 'Promotional', title: '北京首都机场微电影', titleEn: 'Capital Airport Micro-film', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E5%8C%97%E4%BA%AC%E9%A6%96%E9%83%BD%E6%9C%BA%E5%9C%BA%E5%BE%AE%E7%94%B5%E5%BD%B1.jpg?raw=true' },
+  { id: 'p2', category: 'Promotional', title: '中国人保PICC', titleEn: 'PICC Brand Film', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%BF%9DPICC.jpg?raw=true' },
+  { id: 'p3', category: 'Promotional', title: '中地海外', titleEn: 'CGCOC Group', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E4%B8%AD%E5%9C%B0%E6%B5%B7%E5%A4%96.jpg?raw=true' },
+  { id: 'p4', category: 'Promotional', title: '玉溪庄园', titleEn: 'Yuxi Manor', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E7%8E%89%E6%BA%AA%E5%BA%84%E5%9B%AD.jpg?raw=true' },
   // VFX
-  { id: 'v1', category: 'VFX', title: '姜文首部动画短片', titleEn: 'Jiang Wen\'s First Animated Short Film', image: './image/姜文首部动画短片.jpg' },
-  { id: 'v2', category: 'VFX', title: '警察故事', titleEn: 'Police Story 2013', image: './image/警察故事.jpg' },
-  { id: 'v3', category: 'VFX', title: '狄仁杰之神都龙王', titleEn: 'Young Detective Dee', image: './image/狄仁杰之神都龙王.jpg' },
-  { id: 'v4', category: 'VFX', title: '黄金时代', titleEn: 'The Golden Era', image: './image/黄金时代.jpg' },
+  { id: 'v1', category: 'VFX', title: '姜文首部动画短片', titleEn: 'Jiang Wen\'s First Animated Short Film', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E5%A7%9C%E6%96%87%E9%A6%96%E9%83%A8%E5%8A%A8%E7%94%BB%E7%9F%AD%E7%89%87.jpg?raw=true' },
+  { id: 'v2', category: 'VFX', title: '警察故事', titleEn: 'Police Story 2013', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E8%AD%A6%E5%AF%9F%E6%95%85%E4%BA%8B.jpg?raw=true' },
+  { id: 'v3', category: 'VFX', title: '狄仁杰之神都龙王', titleEn: 'Young Detective Dee', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E7%8B%84%E4%BB%81%E6%9D%B0%E4%B9%8B%E7%A5%9E%E9%83%BD%E9%BE%99%E7%8E%8B.jpg?raw=true' },
+  { id: 'v4', category: 'VFX', title: '黄金时代', titleEn: 'The Golden Era', image: 'https://github.com/DanielXie/CompostYard/blob/main/image/%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3.jpg?raw=true' },
 ];
 
 export const PARTNERS: Partner[] = [
