@@ -1,0 +1,8 @@
+{
+  "name": "Compost Yard Studio (堆肥场)",
+  "description": "A high-end, minimalist bilingual homepage for an AIGC digital creative studio, featuring automotive-grade aesthetics and cinematic VFX legacy.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
