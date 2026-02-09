@@ -18,7 +18,7 @@ export const TEAM: TeamMember[] = [
     roleEn: "Creative Director & AI Narrative Designer",
     bio: "北京电影学院动画艺术本科，国际金奖导演。",
     bioEn: "BFA in Animation from Beijing Film Academy; International award-winning director.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop"
+    image: "https://github.com/DanielXie/CompostYard/blob/main/image/Ale%20Huang.jpg?raw=true"
   },
   {
     name: "胡康康",
@@ -36,7 +36,7 @@ export const TEAM: TeamMember[] = [
     roleEn: "Technical Director & AI Visual Technical Director",
     bio: "20多年视效积淀，致力打造高品质视觉特效，广泛涉及电影、广告和纪录片等领域。",
     bioEn: "Over 20 years of VFX mastery, dedicated to creating high-end visual effects across feature films, commercial advertising, and documentary fields.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=800&auto=format&fit=crop"
+    image: "https://github.com/DanielXie/CompostYard/blob/main/image/Daniel%20Xie.jpg?raw=true"
   }
 ];
 
