@@ -56,24 +56,17 @@ const App: React.FC = () => {
     { id: 'VFX', cn: '视觉特效', en: 'Visual Effects' },
   ];
 
-  // Precise Studio Logo SVG (Brain + 3 Leaves) matching the user's attachment perfectly.
+  // 更换为本地 PNG 图片路径
   const StudioLogo = ({ className = "w-full h-full" }: { className?: string }) => (
-    <svg viewBox="0 0 100 120" className={className} fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-      {/* Organic Brain Shape with internal loops as seen in the logo */}
-      <path d="M50 100 C65 100 85 85 85 65 C85 50 70 45 60 45 C65 35 55 30 50 35 C45 30 35 35 40 45 C30 45 15 50 15 65 C15 85 35 100 50 100 Z" />
-      <path d="M30 65 Q45 55 50 70 Q55 85 70 70" strokeWidth="1.5" opacity="0.4" />
-      <path d="M35 75 Q50 85 65 75" strokeWidth="1.5" opacity="0.4" />
-      
-      {/* Growing Plant Stems and Leaves */}
-      <path d="M50 45 V20" /> {/* Center stem */}
-      <path d="M50 20 C50 20 56 12 50 0 C44 12 50 20 50 20 Z" fill="currentColor" stroke="none" /> {/* Center Leaf */}
-      
-      <path d="M50 40 Q40 35 25 22" /> {/* Left stem */}
-      <path d="M25 22 C25 22 18 18 12 25 C20 32 25 22 25 22 Z" fill="currentColor" stroke="none" /> {/* Left Leaf */}
-      
-      <path d="M50 40 Q60 35 75 22" /> {/* Right stem */}
-      <path d="M75 22 C75 22 82 18 88 25 C80 32 75 22 75 22 Z" fill="currentColor" stroke="none" /> {/* Right Leaf */}
-    </svg>
+    <img 
+      src="https://github.com/DanielXie/CompostYard/blob/main/image/Logo.png?raw=true" 
+      alt="Compost Yard Logo" 
+      className={`${className} object-contain`}
+      onError={(e) => {
+        // 如果加载失败，显示一个占位符或保持空白
+        e.currentTarget.style.opacity = '0';
+      }}
+    />
   );
 
   return (
@@ -82,7 +75,7 @@ const App: React.FC = () => {
       <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled ? 'bg-black/90 backdrop-blur-md py-2 border-b border-white/5' : 'bg-transparent py-4'}`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center space-x-3 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <div className="w-8 h-8 flex items-center justify-center transition-transform group-hover:scale-110 duration-500 text-[#00F2FF]">
+            <div className="w-8 h-8 flex items-center justify-center transition-transform group-hover:scale-110 duration-500">
                <StudioLogo />
             </div>
             <span className="text-base font-bold tracking-tighter text-white uppercase">COMPOST YARD</span>
@@ -118,7 +111,12 @@ const App: React.FC = () => {
           />
         </div>
 
-        <div className="relative z-20 text-center px-4 max-w-5xl mx-auto">
+        <div className="relative z-20 text-center px-4 max-w-5xl mx-auto flex flex-col items-center">
+          {/* Hero Logo Display - Added here */}
+          <div className="w-24 h-24 md:w-32 md:h-32 mb-8 animate-fade-in opacity-90 drop-shadow-[0_0_15px_rgba(0,242,255,0.3)] hover:scale-105 transition-transform duration-700">
+            <StudioLogo />
+          </div>
+
           <h1 className="text-3xl md:text-6xl font-bold text-gradient mb-6 tracking-tighter flex flex-wrap justify-center items-center gap-x-4">
             堆肥场 <span className="text-[#00F2FF]/30 font-light">|</span> <span className="text-white">COMPOST YARD</span>
           </h1>
@@ -149,7 +147,7 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      {/* Work Showcase Section - 2x2 Grid with tight gaps and large visuals */}
+      {/* Work Showcase Section */}
       <section id="works" className="py-16 px-6 max-w-6xl mx-auto border-t border-white/5">
         <div className="text-center mb-12">
           <BilingualText cn="作品集" en="Works Showcase" className="items-center" />
@@ -259,9 +257,9 @@ const App: React.FC = () => {
       </section>
 
       {/* Footer / Contact */}
-      <footer className="py-16 px-6 text-center">
+      <footer className="py-16 px-6 text-center border-t border-white/5">
         <div className="max-w-xl mx-auto">
-          <div className="w-14 h-14 mx-auto mb-6 flex items-center justify-center cursor-pointer group text-[#00F2FF]/40 hover:text-[#00F2FF] transition-colors">
+          <div className="w-14 h-14 mx-auto mb-6 flex items-center justify-center cursor-pointer group hover:opacity-80 transition-opacity">
              <StudioLogo />
           </div>
           
