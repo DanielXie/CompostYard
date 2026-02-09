@@ -27,7 +27,7 @@ export const TEAM: TeamMember[] = [
     roleEn: "Art Director & AI Visual Designer",
     bio: "北京电影学院摄影系故事片摄影本科，16年商业影像经验，参与过上百部商业广告，商业短片，公益纪录片等项目。",
     bioEn: "BFA in Narrative Cinematography from Beijing Film Academy. With 16 years of professional experience, he has contributed to hundreds of TVCs, commercial shorts, and public service documentaries.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop"
+    image: "https://github.com/DanielXie/CompostYard/blob/main/image/Mikio%20Hu.jpg?raw=true"
   },
   {
     name: "谢波",
