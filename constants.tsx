@@ -13,7 +13,7 @@ export interface Project {
 export const TEAM: TeamMember[] = [
   {
     name: "黄建乐",
-    nameEn: "Huang Jianle",
+    nameEn: "Ale Huang",
     role: "创意总监 & AI叙事设计师",
     roleEn: "Creative Director & AI Narrative Designer",
     bio: "北京电影学院动画艺术本科，国际金奖导演。",
@@ -22,7 +22,7 @@ export const TEAM: TeamMember[] = [
   },
   {
     name: "胡康康",
-    nameEn: "Hu Kangkang",
+    nameEn: "Mikio Hu",
     role: "艺术指导 & AI视觉设计师",
     roleEn: "Art Director & AI Visual Designer",
     bio: "北京电影学院摄影系故事片摄影本科，16年商业影像经验，参与过上百部商业广告，商业短片，公益纪录片等项目。",
@@ -31,7 +31,7 @@ export const TEAM: TeamMember[] = [
   },
   {
     name: "谢波",
-    nameEn: "Xie Bo",
+    nameEn: "Daniel Xie",
     role: "技术总监 & AI视觉技术总监",
     roleEn: "Technical Director & AI Visual Technical Director",
     bio: "20多年视效积淀，致力打造高品质视觉特效，广泛涉及电影、广告和纪录片等领域。",
